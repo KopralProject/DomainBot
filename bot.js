@@ -2,15 +2,15 @@ const { Telegraf, Markup } = require('telegraf');
 const axios = require('axios');
 
 // Token bot Telegram
-const token = "#";
+const token = "8058490630:AAFiyQKYBSFBsfb7N-pLJ-JiTUnuvA2BBag";
 const bot = new Telegraf(token);
 // API Key Cloudflare
-const apiKey = "#"; //https://dash.cloudflare.com/profile/api-tokens
-const domaincf = "#"; 
-const iniemail = "#";
+const apiKey = "95e042b4119f1d8545a466728e8a7de056621"; //https://dash.cloudflare.com/profile/api-tokens
+const domaincf = "kaisarstore.web.id"; 
+const iniemail = "kopralwann@gmail.com";
 
 const userContext = {};
-const adminIds = [123456789, 987654321]; //ID telegram
+const adminIds = [6222865137]; //ID telegram
 
 const isValidIP = (ip) => {
     const regex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
